@@ -1,0 +1,45 @@
+* {
+    outline: 1px solid orange;
+}
+
+body {
+    margin: 0; /* внешние отступы */
+    padding: 0; /* внутренние отступы */
+    font-size: 14px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background-color: #535353;
+    color: white;
+}
+
+.main-nav {
+    background-color: #1a0202;
+    /*display: flex;*/
+    /*display: inline-flex;*/
+    /*flex-direction: row;*/
+    /*flex-direction: row-reverse;*/
+    /*flex-direction: column;*/
+    /*flex-direction: column-reverse;*/
+
+    /*flex-wrap: nowrap;*/
+    /*flex-wrap: wrap;*/
+    /*flex-wrap: wrap-reverse;*/
+    
+    /*justify-content: center;*/
+    /*justify-content: space-between;*/
+    /*justify-content: space-around;*/
+
+}
+
+/*.site-menu {}*/
+
+/*.site-menu li {}*/
+
+/*.contacts-menu {}*/
+
+/*.contacts-menu li {}*/
+
+/*.about-us {} /*
+
+
+
+

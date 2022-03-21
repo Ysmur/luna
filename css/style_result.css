@@ -1,0 +1,116 @@
+* {
+    outline: 1px solid orange;
+}
+
+body {
+    margin: 0; /* внешние отступы */
+    padding: 0; /* внутренние отступы */
+    font-size: 14px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background-color: #535353;    
+    color: white;
+}
+
+.main-nav {
+    display: flex;
+    margin-bottom: 113px;
+}
+
+.site-menu {
+    display: flex;
+    flex-wrap: wrap;
+    width: 660px;
+}
+
+.site-menu li {
+    margin-left: 30px;
+    list-style-type: none;
+}
+
+.contacts-menu {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.contacts-menu li {
+    margin-left: 30px;
+    list-style-type: none;
+}
+
+.about-us {
+    width: 280px;
+    padding-left: 130px; 
+    
+}
+
+.about-us h1 {
+    font-size: 45px;
+    line-height: 50px;
+    font-family: "Courier New", monospace;
+  }
+
+.about-us p {
+    font-size: 14px;
+    line-height: 22px;
+    color: #d4d4d4;
+  }  
+
+
+.container {
+    width: 1040px;
+    margin: 0 auto;
+    padding: 0;
+  }
+
+.contacts-menu .icon-mail {
+    display: block;
+    width: 17px;
+    height: 17px;
+    background-image: url("../img/mail-icon.png");
+    background-repeat: no-repeat;
+    background-position: 0 50%;
+}
+
+.contacts-menu .icon-phone {
+    display: block;
+    width: 17px;
+    height: 17px;
+    background-image: url("../img/phone-icon.png");
+    background-repeat: no-repeat;
+    background-position: 0 50%;
+}
+
+.site-header .container{
+    min-height: 400px;
+    padding-top: 50px;
+    padding-bottom: 180px;
+    background-image: url("../img/moon-rocket.png");
+    background-repeat: no-repeat;
+    background-position: 560px 140px;
+}
+
+.btn {
+    position: relative;
+    display: flex;
+    width: 195px;
+    padding: 0 25px;
+  
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 50px;
+    text-decoration: none;
+    text-transform: uppercase;
+    
+    background-color: #feca30;
+    color: #222222;
+  
+    cursor: pointer;
+    border: none;
+    border-radius: 50px;
+  }
+
+
+
+
+
+
